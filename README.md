@@ -1,9 +1,7 @@
 1) There 3 tables in my database (PostgreSQL):
-i) item_master (with columns id, item_name, unit and price)
-ii) shopping_cart (with columns id, customer_name)
-iii) shopping_cart_items (shopping_cart_id, item_id, qty)
-	shopping_cart_id is foreign key to shopping_cart  table
-	item_id is foreign key to item_master table
+i) item_master 
+ii) shopping_cart 
+iii) shopping_cart_items 
 
 2) Creating APIs using Node.js for CRUD (Create, Read, Update and Delete) operations for items in a shopping cart. 
 I.e. there should be separate APIs for the following calls:
